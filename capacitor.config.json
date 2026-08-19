@@ -1,0 +1,12 @@
+{
+  "appId": "me.timelessnesses.completionist",
+  "appName": "completionist-app",
+  "server": {
+    "url": "https://coworking-calendar.timelessnesses.me"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true
+    }
+  }
+}
