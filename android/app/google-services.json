@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582097053289",
+    "project_id": "completionist-6a4af",
+    "storage_bucket": "completionist-6a4af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582097053289:android:411bb61b281e947581e4f8",
+        "android_client_info": {
+          "package_name": "me.timelessnesses.completionist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvRmwTIRlKoFgLmiRXg20c3_NF0Pgtl58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
