@@ -12,4 +12,10 @@ public class MainActivity extends BridgeActivity {
         getBridge().getWebView().getSettings().setUserAgentString(WebSettings.getDefaultUserAgent(this));
         return;
     }
+
+    @Override
+    public void onCreate(Bundle savedInstance) {
+        registerPlugin(ChangeIconPlugin.class);
+        super.onCreate(savedInstance);
+    }
 }

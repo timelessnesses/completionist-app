@@ -1,12 +1,21 @@
-{
+ {
   "appId": "me.timelessnesses.completionist",
-  "appName": "completionist-app",
+  "appName": "Coworking Calendar",
   "server": {
     "url": "https://coworking-calendar.timelessnesses.me"
   },
   "plugins": {
     "SplashScreen": {
       "launchAutoHide": true
+    },
+    "PushNotifications": {
+      "presentationOptions": ["banner", "list", "sound"]
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_config_sample",
+      "iconColor": "#488AFF",
+      "sound": "beep.wav",
+      "presentationOptions": ["badge", "sound", "banner"]
     }
   }
 }

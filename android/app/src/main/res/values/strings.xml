@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">completionist-app</string>
-    <string name="title_activity_main">completionist-app</string>
+    <string name="app_name">Coworking Calendar</string>
+    <string name="title_activity_main">Coworking Calendar</string>
     <string name="package_name">me.timelessnesses.completionist</string>
     <string name="custom_url_scheme">me.timelessnesses.completionist</string>
 </resources>
