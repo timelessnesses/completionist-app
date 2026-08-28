@@ -12,15 +12,23 @@
         android:theme="@style/AppTheme">
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
-            android:name=".MainActivity"
+            android:name=".LightMainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBarLaunch"
+            android:theme="@style/AppTheme.NoActionBarLaunch.Light"
+            android:launchMode="singleTask"
+            android:exported="true" />
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation|density"
+            android:name=".DarkMainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBarLaunch.Dark"
             android:launchMode="singleTask"
             android:exported="true" />
 
         <activity-alias
             android:name=".IconLight"
-            android:targetActivity=".MainActivity"
+            android:targetActivity=".LightMainActivity"
             android:enabled="true"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_light"
@@ -33,7 +41,7 @@
 
         <activity-alias
             android:name=".IconDark"
-            android:targetActivity=".MainActivity"
+            android:targetActivity=".DarkMainActivity"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_dark"
