@@ -16,6 +16,8 @@ public class MainActivity extends BridgeActivity {
     @Override
     public void onCreate(Bundle savedInstance) {
         registerPlugin(ChangeIconPlugin.class);
+        registerPlugin(TaskAlarmPlugin.class);
+        registerPlugin(ModernPickerPlugin.class);
         super.onCreate(savedInstance);
     }
 }
